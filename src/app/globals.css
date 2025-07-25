@@ -4,6 +4,8 @@
 
     --cyan-color: #0aaa9d;
     --gray-color: #666666;
+
+    --shadow-card: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
 html,

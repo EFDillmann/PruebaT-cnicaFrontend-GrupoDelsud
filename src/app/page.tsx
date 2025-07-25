@@ -4,6 +4,7 @@ import Contact from "@/landing/components/sections/Contact/Contact";
 import CardList from "@/landing/components/sections/GenericCards/CardList/CardList";
 import Hero from "@/landing/components/sections/Hero/Hero";
 import Navbar from "@/landing/components/sections/Navbar/Navbar";
+import Questions from "@/landing/components/sections/Questions/Questions";
 import Sponsors from "@/landing/components/sections/Sponsors/Sponsors";
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
             <main id="main">
                 <CardList />
                 <Sponsors />
+                <Questions />
             </main>
             <footer id="footer">
                 <Banner>

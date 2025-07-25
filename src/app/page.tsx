@@ -2,6 +2,7 @@ import AboutText from "@/landing/components/sections/About/AboutText";
 import CardList from "@/landing/components/sections/GenericCards/CardList/CardList";
 import Hero from "@/landing/components/sections/Hero/Hero";
 import Navbar from "@/landing/components/sections/Navbar/Navbar";
+import Sponsors from "@/landing/components/sections/Sponsors/Sponsors";
 
 export default function Home() {
     return (
@@ -29,6 +30,7 @@ export default function Home() {
             </header>
             <main id="main">
                 <CardList />
+                <Sponsors />
             </main>
             <footer id="footer"></footer>
         </>

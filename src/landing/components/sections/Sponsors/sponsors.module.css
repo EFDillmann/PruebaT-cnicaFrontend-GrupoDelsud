@@ -1,0 +1,34 @@
+.sponsors-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+
+    margin-block: 8rem;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sponsor-list {
+    display: none;
+}
+
+@media (width > 768px) {
+    .slider {
+        display: none;
+    }
+
+    .sponsor-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        width: 100%;
+    }
+}

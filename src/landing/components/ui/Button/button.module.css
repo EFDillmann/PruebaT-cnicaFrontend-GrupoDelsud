@@ -1,0 +1,20 @@
+.button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.rounded-full {
+    height: 48px;
+    width: 48px;
+    padding: 0;
+    border-radius: 9999px;
+}

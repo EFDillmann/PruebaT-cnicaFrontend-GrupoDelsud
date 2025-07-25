@@ -1,4 +1,5 @@
 import AboutText from "@/landing/components/sections/About/AboutText";
+import Contact from "@/landing/components/sections/Contact/Contact";
 import CardList from "@/landing/components/sections/GenericCards/CardList/CardList";
 import Hero from "@/landing/components/sections/Hero/Hero";
 import Navbar from "@/landing/components/sections/Navbar/Navbar";
@@ -32,7 +33,9 @@ export default function Home() {
                 <CardList />
                 <Sponsors />
             </main>
-            <footer id="footer"></footer>
+            <footer id="footer">
+                <Contact />
+            </footer>
         </>
     );
 }

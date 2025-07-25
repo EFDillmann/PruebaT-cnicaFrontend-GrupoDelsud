@@ -1,5 +1,5 @@
 import Logo from "@/landing/components/ui/Logo/Logo";
-import NavigationList from "@/landing/components/ui/NavigationListItem/NavigationListItem";
+import NavigationList from "@/landing/components/ui/NavigationList/NavigationList";
 import LanguageSelector from "@/landing/components/ui/LanguageSelector/LanguageSelector";
 
 import Image from "next/image";

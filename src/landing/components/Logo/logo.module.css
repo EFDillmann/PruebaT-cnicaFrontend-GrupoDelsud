@@ -1,0 +1,24 @@
+.logoContainer {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.5rem;
+}
+
+.squareLogo {
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 4px;
+}
+
+.textLogo {
+    font-family: var(--font-montserrat);
+    font-weight: 800;
+    font-size: 0.8rem;
+}
+
+@media (width > 768px) {
+    .textLogo {
+        font-size: 1rem;
+    }
+}

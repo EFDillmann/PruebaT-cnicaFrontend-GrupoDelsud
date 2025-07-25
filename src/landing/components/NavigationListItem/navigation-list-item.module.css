@@ -1,0 +1,11 @@
+.navigationListItem {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.link {
+    color: #666666;
+    font-size: 0.8rem;
+    font-weight: 700;
+}

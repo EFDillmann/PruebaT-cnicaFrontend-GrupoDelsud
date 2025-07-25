@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 4.5rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.ham-menu-button {
+    background-color: transparent;
+    border: none;
+}
+
+.options-container {
+    display: none;
+}
+
+@media (width > 768px) {
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .ham-menu-button {
+        display: none;
+    }
+
+    .options-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+
+        width: 25%;
+    }
+}

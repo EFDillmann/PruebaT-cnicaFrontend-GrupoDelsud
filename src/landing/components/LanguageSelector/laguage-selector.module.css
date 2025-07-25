@@ -1,0 +1,21 @@
+.language-selector {
+    display: flex;
+    align-items: center;
+}
+
+.language-item {
+    border-right: 2px solid #666666;
+    padding-inline: 0.25rem;
+
+    color: #666666;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.language-item:last-child {
+    border-right: none;
+}
+
+.selected-language {
+    color: #0aaa9d;
+}

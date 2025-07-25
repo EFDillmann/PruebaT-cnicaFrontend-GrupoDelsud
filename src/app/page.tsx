@@ -1,9 +1,13 @@
+import Navbar from "@/landing/components/Navbar/Navbar";
+
 export default function Home() {
     return (
         <>
-            <header></header>
-            <main></main>
-            <footer></footer>
+            <header id="header">
+                <Navbar />
+            </header>
+            <main id="main"></main>
+            <footer id="footer"></footer>
         </>
     );
 }

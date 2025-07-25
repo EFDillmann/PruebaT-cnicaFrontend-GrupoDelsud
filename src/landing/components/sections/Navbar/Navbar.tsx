@@ -1,10 +1,10 @@
-import Logo from "@/landing/components/Logo/Logo";
-import NavigationListItem from "@/landing/components/NavigationListItem/NavigationListItem";
+import Logo from "@/landing/components/ui/Logo/Logo";
+import NavigationListItem from "@/landing/components/ui/NavigationListItem/NavigationListItem";
 
 import Image from "next/image";
 
 import styles from "./navbar.module.css";
-import LanguageSelector from "../LanguageSelector/LanguageSelector";
+import LanguageSelector from "../../ui/LanguageSelector/LanguageSelector";
 
 const Navbar = () => {
     return (

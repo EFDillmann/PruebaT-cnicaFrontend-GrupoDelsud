@@ -1,4 +1,5 @@
 import { PropsWithChildren } from "react";
+
 import styles from "./hero.module.css";
 
 const Hero = ({ children }: PropsWithChildren) => {

@@ -1,6 +1,9 @@
 .button {
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
+    padding: 0.75rem 2rem;
+    border-radius: 9999px;
+
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 
 .button:disabled {
@@ -16,5 +19,12 @@
     height: 48px;
     width: 48px;
     padding: 0;
-    border-radius: 9999px;
+}
+
+@media (width > 768px) {
+    .button {
+        padding: 0.75rem 3rem;
+
+        font-size: 1.25rem;
+    }
 }

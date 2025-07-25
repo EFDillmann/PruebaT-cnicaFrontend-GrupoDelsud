@@ -1,4 +1,5 @@
 import AboutText from "@/landing/components/sections/About/AboutText";
+import Banner from "@/landing/components/sections/Banner/Banner";
 import Contact from "@/landing/components/sections/Contact/Contact";
 import CardList from "@/landing/components/sections/GenericCards/CardList/CardList";
 import Hero from "@/landing/components/sections/Hero/Hero";
@@ -34,6 +35,14 @@ export default function Home() {
                 <Sponsors />
             </main>
             <footer id="footer">
+                <Banner>
+                    Lorem{" "}
+                    <span className="cyan-text">
+                        ipsum dolor sit amet consectetur
+                    </span>{" "}
+                    <b>a</b>liquet imperdiet
+                    <span className="cyan-text"> penatibus donec velit.</span>
+                </Banner>
                 <Contact />
             </footer>
         </>

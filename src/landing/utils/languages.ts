@@ -1,7 +1,4 @@
-type Language = {
-    value: "es" | "en" | "br";
-    label: string;
-};
+import { Language } from "../types/language.type";
 
 export const languages: Language[] = [
     {

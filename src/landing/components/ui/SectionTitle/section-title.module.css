@@ -1,0 +1,10 @@
+.section-title {
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+
+@media (width > 768px) {
+    .section-title {
+        font-size: 2.25rem;
+    }
+}

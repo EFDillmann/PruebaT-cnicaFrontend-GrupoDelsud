@@ -1,10 +1,10 @@
 import Logo from "@/landing/components/ui/Logo/Logo";
-import NavigationListItem from "@/landing/components/ui/NavigationListItem/NavigationListItem";
+import NavigationList from "@/landing/components/ui/NavigationListItem/NavigationListItem";
+import LanguageSelector from "@/landing/components/ui/LanguageSelector/LanguageSelector";
 
 import Image from "next/image";
 
 import styles from "./navbar.module.css";
-import LanguageSelector from "../../ui/LanguageSelector/LanguageSelector";
 
 const Navbar = () => {
     return (
@@ -22,7 +22,7 @@ const Navbar = () => {
             </button>
 
             <div className={styles["options-container"]}>
-                <NavigationListItem />
+                <NavigationList />
                 <LanguageSelector />
             </div>
         </nav>

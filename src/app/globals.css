@@ -1,6 +1,6 @@
 :root {
     --background: #ffffff;
-    --foreground: #171717;
+    --foreground: #0e0e0e;
 
     --cyan-color: #0aaa9d;
     --gray-color: #666666;
@@ -34,6 +34,10 @@ a {
 
 b {
     font-weight: 800;
+}
+
+li {
+    list-style: none;
 }
 
 button {

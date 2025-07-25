@@ -1,15 +1,10 @@
+import { PropsWithChildren } from "react";
 import styles from "./hero.module.css";
 
-const Hero = () => {
+const Hero = ({ children }: PropsWithChildren) => {
     return (
         <section className={styles.hero}>
-            <p className={styles.text}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-                vulputate libero et velit{" "}
-                <span className="cyan-text">
-                    interdum, ac aliquet odio mattis.
-                </span>
-            </p>
+            <p className={styles.text}>{children}</p>
         </section>
     );
 };

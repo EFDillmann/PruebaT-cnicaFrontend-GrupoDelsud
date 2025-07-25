@@ -1,15 +1,32 @@
+import AboutText from "@/landing/components/sections/About/AboutText";
 import Hero from "@/landing/components/sections/Hero/Hero";
 import Navbar from "@/landing/components/sections/Navbar/Navbar";
 
 export default function Home() {
     return (
         <>
-            <header id="header">
+            <header id="header" className="container">
                 <Navbar />
+                <Hero>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc vulputate libero et velit{" "}
+                    <span className="cyan-text">
+                        interdum, ac aliquet odio mattis.
+                    </span>
+                </Hero>
+                <AboutText>
+                    <span className="cyan-text">
+                        Lorem ipsum dolor sit amet consectetur
+                    </span>{" "}
+                    <b>a</b>liquet imperdiet <b>penatibus donec velit.</b> A
+                    faucibus eget et vulputate dapibus congue enim massa.. Sem
+                    semper odio volutpat{" "}
+                    <span className="cyan-text">
+                        risus platea nulla diam id dis..
+                    </span>
+                </AboutText>
             </header>
-            <main id="main">
-                <Hero />
-            </main>
+            <main id="main"></main>
             <footer id="footer"></footer>
         </>
     );

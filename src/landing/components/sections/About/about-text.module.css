@@ -1,0 +1,39 @@
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+
+    max-width: 80%;
+    margin-block: 3rem;
+}
+
+.text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.dna-icon {
+    height: 24px;
+    width: 24px;
+}
+
+@media (width > 768px) {
+    .about-text {
+        gap: 4rem;
+
+        max-width: 47%;
+        margin-block: 4rem;
+    }
+
+    .text {
+        font-size: 1.75rem;
+    }
+
+    .dna-icon {
+        height: 46px;
+        width: 46px;
+    }
+}

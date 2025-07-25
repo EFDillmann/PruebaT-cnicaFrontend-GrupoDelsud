@@ -4,10 +4,10 @@
 }
 
 .language-item {
-    border-right: 2px solid #666666;
+    border-right: 2px solid var(--gray-color);
     padding-inline: 0.25rem;
 
-    color: #666666;
+    color: var(--gray-color);
     font-size: 0.8rem;
     font-weight: 600;
 }
@@ -17,5 +17,5 @@
 }
 
 .selected-language {
-    color: #0aaa9d;
+    color: var(--cyan-color);
 }

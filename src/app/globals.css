@@ -1,6 +1,9 @@
 :root {
     --background: #ffffff;
     --foreground: #171717;
+
+    --cyan-color: #0aaa9d;
+    --gray-color: #666666;
 }
 
 html,
@@ -32,4 +35,9 @@ a {
 button {
     cursor: pointer;
     border: none;
+}
+
+.cyan-text {
+    color: var(--cyan-color);
+    font-weight: 800;
 }

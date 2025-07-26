@@ -1,18 +1,23 @@
 import { useState, useCallback } from "react";
 
+interface Item {
+    name: string;
+    image: string;
+}
+
 interface UseSliderProps {
-    items: unknown[];
+    items: Item[];
     initialIndex?: number;
 }
 
 interface UseSliderReturn {
-    currentItem: unknown;
+    currentItem: Item;
     currentIndex: number;
     next: () => void;
     prev: () => void;
     hasNext: boolean;
     hasPrev: boolean;
-    items: unknown[];
+    items: Item[];
 }
 
 const useSlider = ({

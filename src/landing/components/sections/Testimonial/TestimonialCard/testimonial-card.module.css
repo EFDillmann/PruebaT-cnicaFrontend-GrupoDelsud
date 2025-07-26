@@ -1,0 +1,61 @@
+.card {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 0.5rem;
+
+    padding-inline: 5rem;
+    padding-block: 2rem;
+
+    border-radius: 12px;
+    box-shadow: var(--shadow-card);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.profile-pic {
+    width: 43px;
+    height: 43px;
+
+    border-radius: 50%;
+    border: 3px solid #f0f0f0;
+}
+
+.name {
+    color: var(--cyan-color);
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.company {
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.testimony {
+    font-size: 0.75rem;
+}
+
+@media (width > 768px) {
+    .card {
+        flex: 0 0 33.33%;
+
+        padding-inline: 3rem;
+    }
+
+    .profile-pic {
+        width: 54px;
+        height: 54px;
+    }
+
+    .name {
+        font-size: 1.25rem;
+    }
+
+    .company,
+    .testimony {
+        font-size: 0.9rem;
+    }
+}

@@ -6,6 +6,7 @@ import Hero from "@/landing/components/sections/Hero/Hero";
 import Navbar from "@/landing/components/sections/Navbar/Navbar";
 import Questions from "@/landing/components/sections/Questions/Questions";
 import Sponsors from "@/landing/components/sections/Sponsors/Sponsors";
+import TestimonialCarrousel from "@/landing/components/sections/Testimonial/TestimonialCarrousel/TestimonialCarrousel";
 
 export default function Home() {
     return (
@@ -34,6 +35,7 @@ export default function Home() {
             <main id="main">
                 <CardList />
                 <Sponsors />
+                <TestimonialCarrousel />
                 <Questions />
             </main>
             <footer id="footer">

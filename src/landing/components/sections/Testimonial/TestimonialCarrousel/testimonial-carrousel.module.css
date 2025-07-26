@@ -1,0 +1,38 @@
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1000px;
+    margin: 15rem auto;
+    position: relative;
+}
+
+.carousel-window {
+    width: 100%;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 1rem;
+
+    padding-block: 0.2rem;
+
+    transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    transform: translateX(var(--mobile-offset));
+}
+
+.nav-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+@media (width > 768px) {
+    .carousel-track {
+        transform: translateX(var(--desktop-offset));
+    }
+}

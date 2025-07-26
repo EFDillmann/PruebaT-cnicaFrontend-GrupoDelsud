@@ -16,9 +16,9 @@
 }
 
 .rounded-full {
+    padding: 0 !important;
     height: 48px;
     width: 48px;
-    padding: 0;
 }
 
 @media (width > 768px) {

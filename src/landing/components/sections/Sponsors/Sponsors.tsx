@@ -1,7 +1,7 @@
 "use client";
 
-import SectionTitle from "../../ui/SectionTitle/SectionTitle";
-import Button from "../../ui/Button/Button";
+import SectionTitle from "@/landing/components/ui/SectionTitle/SectionTitle";
+import Button from "@/landing/components/ui/Button/Button";
 
 import Image from "next/image";
 

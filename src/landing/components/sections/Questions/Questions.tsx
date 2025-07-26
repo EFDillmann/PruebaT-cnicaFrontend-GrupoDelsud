@@ -1,5 +1,5 @@
-import Dropdown from "../../ui/Dropdown/Dropdown";
-import SectionTitle from "../../ui/SectionTitle/SectionTitle";
+import Dropdown from "@/landing/components/ui/Dropdown/Dropdown";
+import SectionTitle from "@/landing/components/ui/SectionTitle/SectionTitle";
 
 import styles from "./questions.module.css";
 

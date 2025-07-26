@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 
-import Button from "../../ui/Button/Button";
+import Button from "@/landing/components/ui/Button/Button";
 
 import styles from "./banner.module.css";
 

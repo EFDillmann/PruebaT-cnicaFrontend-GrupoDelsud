@@ -2,16 +2,17 @@
 
 import { CSSProperties } from "react";
 
-import Button from "../../../ui/Button/Button";
+import Button from "@/landing/components/ui/Button/Button";
 import TestimonialCard from "../TestimonialCard/TestimonialCard";
+import SectionTitle from "@/landing/components/ui/SectionTitle/SectionTitle";
 
 import Image from "next/image";
+
+import useCarrousel from "@/landing/hooks/useCarrousel";
 
 import styles from "./testimonial-carrousel.module.css";
 
 import type { Testimony } from "@/landing/types/testimony.interface";
-import SectionTitle from "@/landing/components/ui/SectionTitle/SectionTitle";
-import useCarrousel from "@/landing/hooks/useCarrousel";
 
 export const testimonialData: Testimony[] = [
     {

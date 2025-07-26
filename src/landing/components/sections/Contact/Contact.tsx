@@ -1,12 +1,12 @@
-import Logo from "../../ui/Logo/Logo";
-import NavigationList from "../../ui/NavigationList/NavigationList";
-
+import Logo from "@/landing/components/ui/Logo/Logo";
+import NavigationList from "@/landing/components/ui/NavigationList/NavigationList";
 import { socialLinks } from "@/landing/utils/socialLinks";
+
+import Image from "next/image";
 
 import styles from "./contact.module.css";
 
 import type { SocialLink } from "@/landing/types/social-link.interface";
-import Image from "next/image";
 
 interface Props {
     socialData?: SocialLink[];

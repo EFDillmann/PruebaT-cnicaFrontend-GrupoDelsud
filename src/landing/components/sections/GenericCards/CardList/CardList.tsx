@@ -1,11 +1,11 @@
 import Card from "../Card/Card";
+import SectionTitle from "@/landing/components/ui/SectionTitle/SectionTitle";
 
 import { genericCards } from "@/landing/utils/genericCards";
 
 import styles from "./card-list.module.css";
 
 import type { GenericCard } from "@/landing/types/generic-card.interface";
-import SectionTitle from "@/landing/components/ui/SectionTitle/SectionTitle";
 
 interface Props {
     cards?: GenericCard[];

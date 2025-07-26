@@ -1,7 +1,8 @@
 import { Question } from "@/landing/types/question.interface";
 
-import styles from "./dropdown.module.css";
 import Image from "next/image";
+
+import styles from "./dropdown.module.css";
 
 const Dropdown = ({ question, answer }: Question) => {
     return (

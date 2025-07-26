@@ -2,6 +2,8 @@
 
 ## Desarrollador por Enzo Facundo Dillmann
 
+ - URL del deploy: https://prueba-t-cnica-frontend-grupo-delsu.vercel.app/
+
 ## 📋 Descripción
 
 Este proyecto es una landing page desarrollada como prueba técnica para el puesto de Desarrollador Frontend. La aplicación está construida con Next.js 15, TypeScript y CSS Modules, siguiendo las mejores prácticas que conozco, para que pueda demostrar mis habilidades y experiencia en el desarrollo de aplicaciones web. Mi principal objetivo es que sea un código limpio, mantenible y entendible para cualquier persona que lo pueda leer.
@@ -51,7 +53,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 1. **Clonar el repositorio**
 
     ```bash
-    git clone [URL_DEL_REPOSITORIO]
+    git clone https://github.com/EFDillmann/PruebaT-cnicaFrontend-GrupoDelsud.git
     cd delsud-landing
     ```
 
